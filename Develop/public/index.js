@@ -115,7 +115,6 @@ function sendTransaction(isAdding) {
       errorEl.textContent = "Missing Information";
     }
     else {
-      // clear form
       nameEl.value = "";
       amountEl.value = "";
     }
